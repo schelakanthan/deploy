@@ -1,0 +1,125 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.Python
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django & Wagtail
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+/media/
+/staticfiles/  # Only ignore collected static files
+.wagtail-media/
+collected-static/
+/public/
+.wagtail-cache/
+wagtail_cache/
+
+# Remove /static/ from ignore list since we need our source static files
+# But ignore compiled static files
+/theme/static/css/dist/*
+!/theme/static/css/dist/.gitkeep
+
+# Development/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+.editorconfig
+*.code-workspace
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Node/Frontend
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.npm
+.yarn-integrity
+.yarn/
+package-lock.json
+
+# Backup files
+*.bak
+*~
+*.swp
+*.dump
+*.sql
+
+# Environment files
+.env*
+!.env.example
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Deployment specific
+*.pid
+*.sock
+.vagrant/
+Vagrantfile.local
+
+# Local development
+local/
+.local/
+tmp/
+.tmp/
+temp/
+.temp/
+
+# Logs
+logs/
+*.log.*
